@@ -1,0 +1,18 @@
+header{
+    background-image: url(../img/lemon-pie2.jpg);
+    background-size:cover;
+    color: white;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+h3{
+    font-family: 'Lora', serif;
+}
+
+}
+.poner_naranja{
+    text-decoration: underline;
+    color: orange;
+}
