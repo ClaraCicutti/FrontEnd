@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    font-family: Roboto;
+}
+.descuento{
+    width: 354px;
+    height: 56px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 36px;
+    padding-left: 20px;
+    padding-top: 4px;
+}
+aside{
+    width: 100%;
+    height: 40px;
+    background: #1CD1B0;
+}
+header{
+    width: 100%;
+    background: #00669F;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    height: 70px;
+}
+h1{
+    color: white;
+    margin: 0px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+h2{
+    margin-top: 20%;
+    text-transform: uppercase;
+    text-align: center;
+}
+section{
+    width: 400px;
+    margin: auto;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-top-left-radius:30px;
+    border-top-right-radius: 30px;
+    padding-bottom: 30px;
+}
+.cabecera{
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 30px;
+}
+.perfil-batman{
+    background-image: url("../img/batman.jpg");
+    position:absolute;
+    background-size: cover;
+    background-position: center center;
+}
+.perfil-maravilla{
+    background-image: url("../img/wonderw.jpg");
+    position:absolute;
+    background-size: cover;
+    background-position: center center;
+}
+.perfil-superman{
+    background-image: url("../img/superman.jpg");
+    position:absolute;
+    background-size: cover;
+    background-position: center center;
+}
+.foto{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    margin: auto;
+    position: relative;
+    top: 40%;
+}
+.img-batman{
+    background-image: url("../img/bg-batman.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+.img-maravilla{
+    background-image: url("../img/bg-wonderw.jpg");
+    background-size: cover;
+}
+.img-superman{
+    background-image: url("../img/bg-superman.jpg");
+    background-size: cover;
+}
+.boton{
+    text-align: center;
+    color:white;
+    background: #00669F;
+    border-radius: 3px;
+    margin: auto;
+    padding: 15px;
+    width: 140px;
+}
+p{
+    margin: 20px;
+}
+.fa-heart{
+    color: #CC2424;
+    font-size: 40px;
+    margin: 25px;
+}
+.pie{
+    position: relative;
+    text-align: center;
+    top: 25px;
+    color: white;
+}
+a{
+    padding: 12px;
+    position: absolute;
+    right: 20px;
+    bottom: -23px;
+    box-sizing: content-box;
+}
+.fa-plus-circle{
+    position: fixed;
+    font-size: 50px;
+    right: 300px;
+    bottom: 150px;
+    color: #00669F;
+}
+footer{
+    margin-top: 170px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    height: 70px;
+}
