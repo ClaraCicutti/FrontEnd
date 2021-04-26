@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Añadí tu Super</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <main class="caja_azul">
+        <h1>Añadí tu súper</h1>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        <form action="">
+            <div>
+                <label for="nombre">*Nombre</label>
+                <input type="text" name="nombre" id="nombre">
+            </div>
+            <div>
+                <label for="especie">*Especie</label>
+                <select name="especie" id="especie">
+                    <option value="marciano">Marciano</option>
+                    <option value="saturniano">Saturniano</option>
+                    <option value="elfo">Elfo</option>
+                    <option value="" selected disabled hidden>Especie</option>
+                </select>
+            </div>
+            <div>
+                <label for="fecha">Fecha</label>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <div>
+                <label for="archivo">Agregar foto</label>
+                <input type="file" name="archivo" id="archivo">
+            </div>
+            <div>
+                <textarea name="comentario" id="comentario" cols="30" rows="10">Descripción</textarea>
+            </div>
+            <div>
+                <label for="poderes">Poderes</label>
+                <input type="checkbox" name="poderes" id="poderes">
+            </div>
+
+        </form>
+    </main>
+</body>
+</html>

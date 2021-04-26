@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Karla:wght@400;700&family=Roboto&display=swap');
+
+:root{
+    --main-color:#00669F;
+    --secondary-color: #1CD1B0;
+}
+
+*{
+    font-family: Roboto, sans-serif;
+    box-sizing: border-box;
+    margin: 0%;
+}
+
+/* BARRA DESCUENTOS*/
+.descuento{
+    position: relative;
+    width: 100%;
+    height: 23px;
+    padding-left: 20px;
+    padding-top: 2px;
+
+    background: var(--secondary-color);
+}
+
+/* BARRA LOGO */
+.tienda{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    padding-left: 10px;
+
+    background: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* NAVEGACIÓN*/
+nav{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    text-align: right;
+    padding-right: 20px;
+    padding-top: 11px;
+
+    background: #001D2D;
+}
+.navegacion a{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.tienda p{
+    position: relative;
+    display: inline-block;
+    bottom: 23px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* CAJA FORMULARIO */
+
+.formulario{
+    position: relative;
+    width: 620px;
+    height: 428px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.form-registro{
+    margin-bottom: 400px;
+}
+
+.form-login{
+    margin-top: 250px;
+    margin-bottom: 250px;
+}
+
+/* TITULO FORMULARIO */
+.login{
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 72px;
+    margin-bottom: 20px;
+    color:#333333;
+}
+
+/* CONTENIDO FORMULARIO */
+.contenido-form{
+    width: 620px;
+    height: 60px;
+    margin-top: 20px;
+    padding-left: 23px;
+    border: 2px solid #000000;
+
+    font-family: Karla; 
+    font-size: 20px;
+}
+
+.contenido-form::placeholder{
+    color: black; 
+} 
+    
+.comentar{
+    height: 251px;
+    padding-top: 15px;
+}
+
+/* BOTONES */
+.boton{
+    height: 54px;
+    border-radius: 23px;
+    border: none;
+    margin-top: 59px;
+    margin-bottom: 21px;
+    
+    font-family: Karla, sans-serif;
+    font-weight: bold;
+    font-size: 24px;    
+    
+    background: var(--secondary-color);
+}
+
+.login-entrar{
+    width: 100%;
+}
+
+.compartido{
+    width: 300px;
+}
+
+.resetear{
+    background: #888888;
+    color: white;
+}
+.entrar{
+    margin-left: 16px;
+}
+
+
+/* LINKS */
+a{
+    display: block;
+    font-family: Karla;
+    font-size: 21px;
+    text-align: center;
+    text-decoration: none;
+    
+    color: var(--main-color);
+}
+
+.link-negro{
+    color: black;
+}
+
+/* TARJETAS */
+
+/* CAJA TARJETA */
+.caja-tarjeta{
+    position: relative;
+    height: 533px;
+    width: 1020px;
+    margin: auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.tarjeta{
+    display: inline-block;
+    width: 300px;
+    height: 530px;
+    margin: 0px 18px;
+}
+
+/* CAJA CUERPO */
+.caja-cuerpo{
+    width: 300px;
+    height: 336px;
+    margin-top: -20%;
+    padding: 73px 16px 18px; 
+   
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    z-index: 1;
+}
+
+.titulo-super{
+    text-align: center;
+    font-size: 30px;
+}
+
+.descripcion{
+    padding-top: 10px;
+    padding-bottom: 37px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.boton-ver-mas{
+    display: block;
+    width: 128.78px;
+    height: 48.52px;
+    margin: auto;
+    border: none;
+    font-size: 15px;
+
+    color: white;
+    background: var(--main-color);
+}
+
+/* SIGNO MAS */
+.add a{
+    position: relative;
+    font-size: 62px;
+    color: white;
+}
+
+.add-container{
+    position: fixed;
+    background-color: var(--main-color);
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    /* bottom: 400px;
+    right: 100px; */
+    bottom: 50%;
+    left: 90%;
+    text-align: center;
+}
+
+/* IMAGENES */
+.img-portada{
+    width: 100%;
+    height: 193px;
+    border-radius: 16px 16px 0px 0px;
+    background-size: cover;
+}
+
+.img-perfil{
+    position: relative;
+    width: 120px;
+    height: 118px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: -20%;
+    z-index: 2;
+}
+
+/* BATMAN IMAGENES */
+.portada-batman{
+    background-image: url("../img/bg-batman.png");
+}
+
+.perfil-batman{
+    background-image: url("../img/pp-batman.png");
+}
+
+/* HARLEY QUINN */
+.portada-harley{
+    background-image: url("../img/bg-harley.png");
+}
+
+.perfil-harley{
+    background-image: url("../img/pp-harley.png");
+}
+
+/* SUPERMAN IMAGENES */
+
+.portada-superman{
+    background-image: url("../img/bg-superman.png");
+}
+
+.perfil-superman{
+    background-image: url("../img/pp-superman.png");
+    background-size: contain;
+}
+
+/* ICONO CORAZÓN */
+.fas{
+    position: absolute;
+    padding-left: 21px;
+    padding-top: 17px;
+    font-size: 30px;
+    color: red;
+}
+
+/* PÁGINA DE TARJETAS INDIVIDUALES */
+.tienda-individual{
+    height: 101px;
+    padding: 1%;
+}
+.titulo-individual{
+    font-size: 60px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.caja-individual{
+    position: relative;
+    margin: auto;
+    margin-top: 215px;
+    width: 546px;
+    height: 369px;
+    padding: 5% 1.5%;
+
+    line-height: 20px;
+    font-size: 17px;
+
+    background: #F3F3F3;
+    border-radius: 45px 45px 0px 0px;
+}
+
+.corazon-indiv{
+    position: absolute;
+    margin-left: 30px;
+    top: 52px;
+    left: 10px;
+}
+
+.indiv-pp{
+    position: absolute;
+    width: 159px;
+    height: 159px;
+    bottom: 308px;
+    left: 199px;
+    border-radius: 50%;
+}
+
+.nombre-individual{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 32px;
+    font-weight: normal;
+    padding-bottom: 20px;
+    color: #2C0187;
+}
+
+.icono{
+    position: absolute;
+    bottom: 15px;
+}
+
+.icono-izquierda{
+    left: 152px;
+}
+
+.icono-centro{
+    left: 245px;
+}
+
+.icono-centro-batman{
+    left: 220px;
+}
+
+.icono-derecha{
+    right: 152px;
+}
+
+.final-azul{
+    position: relative;
+    margin: auto;
+    margin-bottom: 116px;
+    width: 546px;
+    height: 87px;
+
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 2%;
+
+    background: #2C0187;
+    border-radius: 0px 0px 45px 45px;
+}
+
+.volver-home{
+    color: white;
+}
+
+/* BATMAN */
+.carta-individual-batman{
+    background-image: url("../img/bg-batman.png");
+    background-size: cover;
+}
+
+.pp-indiv-batman{
+    background-image: url("../img/pp-batman.png");
+    background-size: cover;
+}
+
+/* HARLEY QUINN */
+.carta-individual-harley{
+    background-image: url("../img/bg-harley2.png");
+    background-size: cover;
+}
+
+.pp-indiv-harley{
+    background-image: url("../img/pp-harley2.png");
+    background-position: center;
+}
+
+/* SUPERMAN */
+.carta-individual-superman{
+    background-image: url("../img/bg-superman.png");
+    background-size: cover;
+}
+
+.pp-indiv-superman{
+    background-image: url("../img/pp-superman.png");
+    background-size: cover;
+}
+
+/* ANIADIR SUPER */
+.caja-aniadir-heroe{
+    width: 954px;
+    height: 832px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    text-align: left;
+    padding: 18px 110px;
+
+    background: var(--main-color);
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49px; 
+}
+.titulo-aniadir-heroe{
+    text-align: center;
+    line-height: 40px;
+}
+
+.caja-columna{
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+}
+.izquierda{
+    margin-right: 5%;
+}
+
+.derecha{
+    margin-left: 5%;
+}
+.subtitulo-aniadir-heroe{
+    display: block;
+    padding: 20px 0px;
+}
+
+.label-check-radio{
+    padding-bottom: 0px;
+}
+
+.form-aniadir-heroe{
+    width: 343px;
+    height: 63px;
+    font-size: 20px;
+    padding-left: 20px;
+
+    background: #FFFFFF;
+    border: 1.50px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15.3407px;
+}
+
+.descripcion-heroe{
+    height: 307px;
+    margin-top: 20px;
+    padding-top: 15px;
+
+}
+.check-radio{
+    font-family: karla;
+    font-size: 16px;
+}
+.agregar-foto{
+    padding-top: 37px;
+}
+
+/* BOTON */
+.aniadir-heroe{
+    display: block;
+    margin: auto;
+    width: 466px;
+    height: 87px;
+    margin-top: 35px;
+
+    font-family: Inter;
+    font-weight: bold;
+    font-size: 40px;
+}
+.form-check-radio{
+    width: 20px;
+    height: 15px;
+    margin-top: 16px;
+}
+
+hr{
+    margin-top: 32px;
+    width: 343px;
+}
+/* FOOTER */
+footer{
+    position:relative;
+    width: 100%;
+    height: 61px;
+
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+
+    background: var(--main-color);
+}
