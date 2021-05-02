@@ -384,6 +384,7 @@ a{
 .carta-individual-batman{
     background-image: url("../img/bg-batman.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pp-indiv-batman{
@@ -395,6 +396,7 @@ a{
 .carta-individual-harley{
     background-image: url("../img/bg-harley2.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pp-indiv-harley{
@@ -406,6 +408,7 @@ a{
 .carta-individual-superman{
     background-image: url("../img/bg-superman.png");
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .pp-indiv-superman{
