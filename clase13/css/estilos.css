@@ -183,4 +183,33 @@ footer ul {
 }
 
 /*** Responsive */
-
+@media screen, (max-width:480px) {
+    header{
+        width: 100vw;
+    }
+    .bg-header{
+        height: 100vh;
+    }
+    section>div,
+    footer{
+        flex-direction:column
+    }
+    .card{
+        width: 100%;
+        margin: 20px 0px
+    }
+    .contacto,
+    .formulario,
+    footer>div{ 
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .contacto>p{
+        text-align: center;
+    }
+}
+@media screen, (max-width:768px) {
+    .bg-header{
+        background-size: ;;
+    }
+}
