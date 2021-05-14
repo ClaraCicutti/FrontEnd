@@ -194,22 +194,22 @@ div.iconos{
     margin: 0.2rem 0px;
 }
 
-.fa-heart:active{
+i.fa-heart:active{
     color: red;
     font-weight: bold;
 }
 
-.fa-comment:active{
+i.fa-comment:active{
     color: gray;
     font-weight: bold;
 }
 
-.fa-paper-plane:active{
+i.fa-paper-plane:active{
     color: royalblue;
     font-weight: bold;
 }
 
-.fa-smile:active{
+i.fa-smile:active{
     color:gold;
     font-weight: bold;
 }
