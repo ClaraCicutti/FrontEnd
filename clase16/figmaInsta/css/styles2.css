@@ -7,14 +7,14 @@
 }
 
 body{
-    /* display: grid;
+    display: grid;
     grid-template-columns: repeat(2 1fr);
     grid-template-rows: repeat(4 1fr);
     grid-template-areas: 
-    "nav nav nav nav"
+    "nav nav"
     "article aside"
     "section aside"
-    "footer footer footer footer"; */
+    "footer footer";
 
     background-color: #FAFAFA;
 }
@@ -35,7 +35,9 @@ nav{
     padding-right: 2rem;
 
     background: #FFFFFF;
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25)
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+
+    grid-area: nav;
 }
 
 header nav h2{
@@ -84,6 +86,8 @@ aside{
     font-family: Inter;
     font-weight: 500;
     font-size: 0.8rem;
+
+    grid-area: aside;
 }
 
 div.mi-perfil{
@@ -141,6 +145,8 @@ article.container-historia{
     background: #FFFFFF;
     border: 0.4px solid rgba(34, 34, 34, 0.5);
     border-radius: 5px;
+
+    grid-area: article;
 }
 
 section.container-feed{
@@ -151,6 +157,8 @@ section.container-feed{
     border: 0.4px solid rgba(34, 34, 34, 0.5);
     border-radius: 5px;
     margin-top: 3rem;
+
+    grid-area: section;
 }
 
 div.nombre-feed{
@@ -194,26 +202,6 @@ div.iconos{
     margin: 0.2rem 0px;
 }
 
-.fa-heart:active{
-    color: red;
-    font-weight: bold;
-}
-
-.fa-comment:active{
-    color: gray;
-    font-weight: bold;
-}
-
-.fa-paper-plane:active{
-    color: royalblue;
-    font-weight: bold;
-}
-
-.fa-smile:active{
-    color:gold;
-    font-weight: bold;
-}
-
 div.ver-comentarios{
     color: #A49B9B;
 }
@@ -233,8 +221,10 @@ footer{
 
     color: white;
     background: #222222;
-}
 
+    grid-area: footer;
+}
+ 
 @media (max-width: 1130px) {
     #search{
         display: none;
