@@ -3,6 +3,7 @@
 :root{
     --main-color:#00669F;
     --secondary-color: #1CD1B0;
+    --tercer-color: #001D2D;
 }
 
 *{
@@ -50,6 +51,10 @@ nav{
     font-family: Roboto, sans-serif;
     font-size: 16px;
     color: white;
+}
+
+.navegacion a:hover{
+    color: var(--main-color);
 }
 
 .tienda p{
@@ -212,6 +217,10 @@ a{
     background: var(--main-color);
 }
 
+.boton-ver-mas:hover{
+    background-color: var(--tercer-color);
+}
+
 /* SIGNO MAS */
 .add a{
     position: relative;
@@ -230,6 +239,10 @@ a{
     bottom: 50%;
     left: 90%;
     text-align: center;
+}
+
+.add-container:hover{
+    background-color: var(--tercer-color);
 }
 
 /* IMAGENES */
@@ -497,6 +510,12 @@ a{
     font-weight: bold;
     font-size: 40px;
 }
+
+.aniadir-heroe:hover{
+    background-color: #001D2D;
+    color: white;
+}
+
 .form-check-radio{
     width: 20px;
     height: 15px;
